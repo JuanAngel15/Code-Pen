@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+    background-color: black; 
+}
+
+
+.dd>.mi-codepen {
+    color:white;
+    text-align:justify;display: flex;
+    flex-direction: column;
+    padding: 1px;
+    height: 300px;
+    width: 290px;
+    border-radius: 1000000000px;
+    margin-top: 15px;
+    border-top: 10px ;
+    display: flex;
+    text-align: left;
+    justify-content: left ;
+  float: left;
+  letter-spacing: 3px;
+  line-height: 20px;
+  margin-bottom: 10000000000px;
+}
+ 
+
+.codepen > a{
+
+    letter-spacing: 10px;
+    line-height: 2px;
+    color: white;
+   
+}
+
+.la-la > a{
+    line-height: 25px;
+    color: gold;
+}
+
+.le-le > a{
+    margin:0;
+    background-color:#191919;
+    min-height:3mm;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:Helvetica,Sans-serif;
+  }
+  a {
+    text-decoration:none;
+    color:#FFF;
+  }
+  .rainbow-button {
+    width:calc(7vw + 1px);
+    height:calc(1vw + 1px);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:1000000px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:10px;
+    font-weight:bold;
+  }
+  .rainbow-button:after {
+    content:attr(alt);
+    /* width:500px; */
+    height:1vw;
+    background-color:#191919;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .rainbow-button:hover {
+    animation:slidebg 2s linear infinite;
+  }
+  
+  @keyframes slidebg {
+    to {
+      background-position:10vw;
+    }
+  }
+  .li-li  a {
+      display: flex;
+    text-align: center;
+    padding-right: 700px;
+    width: 1000px;
+    margin-left: 200px;
+    
+  }
+  .dd>.mi-codepen>.li-li {
+      margin-left: 400px;
+      width: 1000px;
+      display: grid;
+
+  }
+  
+.burbujas  {
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding-left: 100px;
+    width: 1000px;
+    padding-top: 50px;    ;
+    float: left;
+    background-color:black;
+    color:white;
+    font-family: monospace;
+    font-size: 125%;
+    align-items: center;
+}
+
+.burbujas > p {
+    padding-left: 800px;
+    
+}
+
+.mi-mama  {
+  padding-left: 140em;
+  width: 7em;
+  padding-top: 0px;
+  padding-bottom: 39px;
+  position: relative;
+}
+.mi-mama  a{
+  position: absolute;
+  bottom: 106px;
+}
+
+.ty {
+  padding-left: 95em;
+  width: 7em;
+  padding-top: 0px;
+}
+.ima  {
+  padding-top: 37px;
+  padding-left: 2em;
+width: 1000em;
+}
+.ima > img {
+  width: 130em;
+  
+}
